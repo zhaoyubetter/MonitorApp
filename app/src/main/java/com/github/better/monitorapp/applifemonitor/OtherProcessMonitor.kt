@@ -1,4 +1,4 @@
-package com.github.better.monitorapp.monitor
+package com.github.better.monitorapp.applifemonitor
 
 import android.app.Activity
 import android.app.Application

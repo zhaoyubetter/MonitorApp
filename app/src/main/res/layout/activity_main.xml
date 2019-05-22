@@ -19,4 +19,12 @@
         android:layout_height="wrap_content"
         android:text="打开Activity B (新进程:B)" />
 
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开Activity C (新进程:C)" />
+
+
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.github.better.monitorapp.monitor
+package com.github.better.monitorapp.applifemonitor
 
 import android.app.Activity
 import android.app.Application
@@ -64,7 +64,7 @@ internal class MainProcessMonitor private constructor() : ActivityLifeCycleMonit
                 }
             }
 
-        }, IntentFilter(ACTION_BROAD_CAST_MONITOR))
+        },  IntentFilter(ACTION_BROAD_CAST_MONITOR))
     }
 
     private inline fun pause(tmpForeground: Boolean) {
